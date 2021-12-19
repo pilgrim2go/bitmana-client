@@ -22,7 +22,8 @@ class JpsClient(BaseClient):
             jps=manifest_content,
             envName=env_name,
             skipNodeEmails=True,
-            settings=json.dumps(settings)
+            settings=json.dumps(settings),
+            region="users"
         )
 
         return response["successText"]
