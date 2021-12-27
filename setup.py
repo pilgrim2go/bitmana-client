@@ -12,7 +12,7 @@ test_requires = [
     "pytest-xdist"
 ]
 
-package_version = os.environ.get("PACKAGE_VERSION", "0.0.1")
+package_version = os.environ.get("PACKAGE_VERSION", "0.0.2")
 package_name = os.environ.get("PACKAGE_NAME","jelastic-client")
 server_version = os.environ.get("JELASTIC_VERSION", "0.0.1")
 
